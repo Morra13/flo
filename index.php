@@ -30,58 +30,19 @@
         </div>
         <div class="navigation">
             <!--            <a class="toggleMenu" href="#">Menu</a>-->
-            <ul class="nav">
-                <li>
-                    <a href="index.html">Главная</a>
-                </li>
-                <li>
-                    <a href="#">Flojet</a>
-                </li>
-                <li>
-                    <a href="#">Jabsco</a>
-                </li>
-                <li>
-                    <a href="#">Singflo</a>
-                </li>
-                <li>
-                    <a href="#">VITOP</a>
-                </li>
-                <li>
-                    <a href="#">Информация</a>
-                    <ul>
-                        <li>
-                            <a href="#">Доставка</a>
-                        </li>
-                        <li>
-                            <a href="#">Гарантия</a>
-                        </li>
-                        <li>
-                            <a href="#">Состояние заказа</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Контакты</a>
-                    <ul>
-                        <li>
-                            <a href="#">Написать письмо</a>
-                        </li>
-                        <li>
-                            <a href="#">Обратный звонок</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <span class="left-ribbon"> </span>
-            <span class="right-ribbon"> </span>
-
             <?php require_once 'topMenu.php'?>
         </div>
         <div class="header_bottom">
             <img src="images/banner_1.jpg" alt=""/>
+
+            <!--            <div class="slider-text">-->
+            <!--                <h2>Lorem Ipsum Placerat <br/>Elementum Quistue Tunulla Maris</h2>-->
+            <!--                <p>Vivamus vitae augue at quam frigilla tristique sit amet<br/> acin ante sikumpre tisdin.</p>-->
+            <!--                <a href="#">Sitamet Tortorions</a>-->
+            <!--            </div>-->
+            <!--            <div class="slider-img">-->
+            <!--                <img src="images/slider-img.png" alt=""/>-->
+            <!--            </div>-->
             <div class="clear"></div>
         </div>
     </div>
@@ -229,11 +190,65 @@
                             </div>
 
                         </div>
+                        <div class="grid_1_of_4 images_1_of_4">
+                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
+                            <a href="preview.html"><img src="images/product-img4.jpg" alt=""/></a>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees">$839.93 </span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <h4><a href="preview.html">More Info</a></h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="section group">
                         <div class="grid_1_of_4 images_1_of_4">
                             <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
                             <a href="preview.html"><img src="images/product-img1.jpg" alt=""/></a>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees">$839.93 </span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <h4><a href="preview.html">More Info</a></h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="grid_1_of_4 images_1_of_4">
+                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
+                            <a href="preview.html"><img src="images/product-img2.jpg" alt=""/></a>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees">$839.93 </span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <h4><a href="preview.html">More Info</a></h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                        </div>
+                        <div class="grid_1_of_4 images_1_of_4">
+                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
+                            <a href="preview.html"><img src="images/product-img3.jpg" alt=""/></a>
+                            <div class="price-details">
+                                <div class="price-number">
+                                    <p><span class="rupees">$839.93 </span></p>
+                                </div>
+                                <div class="add-cart">
+                                    <h4><a href="preview.html">More Info</a></h4>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                        </div>
+                        <div class="grid_1_of_4 images_1_of_4">
+                            <h4><a href="preview.html">Whirlpool LTE5243D 3.4 CuFt.... </a></h4>
+                            <a href="preview.html"><img src="images/product-img4.jpg" alt=""/></a>
                             <div class="price-details">
                                 <div class="price-number">
                                     <p><span class="rupees">$839.93 </span></p>
@@ -260,14 +275,14 @@
             <ul>
                 <!--LiveInternet counter  Добавили мы для проверки посещения    -->
                 <script type="text/javascript"><!--
-                document.write("<a href='http://www.liveinternet.ru/click' " +
-                    "target=_blank><img src='http://counter.yadro.ru/hit?t14.6;r" +
-                    escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
-                        ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
-                        screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
-                    ";" + Math.random() +
-                    "' alt='' title='LiveInternet: показано просмотров за последние 24 часа, посетителей за сутки и за сегодняшний день ' " +
-                    "border=0 width=88 height=31><\/a>")//--></script>
+                    document.write("<a href='http://www.liveinternet.ru/click' " +
+                        "target=_blank><img src='http://counter.yadro.ru/hit?t14.6;r" +
+                        escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                            screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                        ";" + Math.random() +
+                        "' alt='' title='LiveInternet: показано просмотров за последние 24 часа, посетителей за сутки и за сегодняшний день ' " +
+                        "border=0 width=88 height=31><\/a>")//--></script>
                 <!--/LiveInternet-->
                 <li><a href="#">Terms of Use</a> :</li>
                 <li><a href="#">Privacy Policy</a> :</li>

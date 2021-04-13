@@ -102,7 +102,7 @@ body {
 }
 /** Navigation **/
 .navigation{
-	background:#e44f2b;
+	background:#03acfd;
 	padding:5px 0;
 	position:relative;
 }
@@ -127,15 +127,15 @@ body {
     padding:16px 15px;
     color: #fff;
     width:95%;
-     border-top:1px solid #DB3C15;
-     border-bottom:1px solid #DB3C15;
+     border-top:1px solid #05a3ec;
+     border-bottom:1px solid #05a3ec;
      background:url("../images/nav-icon.png") no-repeat 98% center;
 }
 .nav {
     list-style: none;
      *zoom: 1;
-     background:#e44f2b;
-     border-bottom:1px solid #DB3C15;
+     background:#035ffd;
+     border-bottom:1px solid #035ffd;
 }
 .nav:before,
 .nav:after {
@@ -151,8 +151,8 @@ body {
 }
 .nav a {
     padding:16px 33px;
-    color:#ffb29f;
-    border-top:1px solid #DB3C15;
+    color:#0a0202;
+    border-top:1px solid #035ffd;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -191,20 +191,20 @@ body {
 }
 .nav li li a {
     display: block;
-    background:#EA5E3C;
+    background:#035ffd;
     position: relative;
     z-index:100;
-    border-top:1px solid #EF7A5D;
+    border-top:1px solid #035ffd;
     padding:10px;
     font-size:15px;
 }
 .nav li li a:hover {
-	  background:#DB502E;
+	  background:#035ffd;
 }
 .nav li li li a {
-    background:#ED6A4A;
+    background:#035ffd;
     z-index:200;
-    border-top:1px solid #EF7A5D;
+    border-top:1px solid #035ffd;
 }
 
 @media screen and (max-width: 768px) {
@@ -246,7 +246,7 @@ body {
 	width:50%;
 }
 .slider-text h2{
-	color:#e44f2b;
+	color:#035ffd;
 	font-size:40px;
 }
 .slider-text p{
@@ -302,7 +302,7 @@ body {
 }
 .content_top h3{
 	font-size:25px;
-	color:#e44f2b;
+	color:#035ffd;
 	padding-bottom:15px;
 }
 .line{
@@ -328,7 +328,7 @@ body {
 	width:30px;
 	height:30px;
 	text-align:center;
-	background:#e44f2b url("../images/arrows.png") no-repeat;
+	background:#035ffd url("../images/arrows.png") no-repeat;
 	border-radius:2em;
 	-webkit-border-radius:2em;
 	-moz-border-radius:2em;
@@ -372,7 +372,7 @@ body {
   text-align:center;	
 }
 .ocarousel_window_slides a:hover p{
- color:#e44f2b;
+ color: #035ffd;
  text-decoration:underline;
 }
 .ocarousel_indicators {
@@ -398,7 +398,7 @@ body {
 	color:#FFF;
 	padding:10px;
 	padding-left:25px;
-	background:#e44f2b;
+	background: #03b6fd;
 	position:relative;
 	margin-bottom:5px;
 }
@@ -429,7 +429,7 @@ body {
 	display:block;
 	font-size:15px;
 	padding:10px 15px;
-    color: #9C9C9C;
+    color: #0a0202;
     background:url(../images/drop_arrow.png) no-repeat 0;
     border-bottom:1px solid #D6D6D6;
 }
@@ -437,7 +437,7 @@ body {
 	border:none;
 }
 .categories li a:hover{
-	color:#e44f2b;
+	color:#035ffd;
 }	
 .buters-guide{
 	margin-top:2em;
@@ -449,7 +449,7 @@ body {
 	padding:8px 0;
 }
 .buters-guide p span{
-	color:#e44f2b;
+	color:#035ffd;
 	font-size:16px;
 }
 .add-banner{
@@ -467,11 +467,11 @@ body {
 .banner-desc h4{
 	display:block;
 	font-size:25px;
-	color:#e44f2b;
+	color:#035ffd;
 	margin-bottom:10px;
 }
 .banner-desc a{
-	background:#e44f2b !important;
+	background:#035ffd !important;
 	padding:5px 15px !important;
 	display:inline-block !important;
 }
@@ -525,7 +525,7 @@ body {
 	max-width: 100%;
 }
 .images_1_of_4  h4  a{
-	color:#e44f2b;
+	color:#035ffd;
 	font-size:16px;
 	padding-bottom:5px;
 }
@@ -536,7 +536,7 @@ body {
 }
 .images_1_of_4  p span.price {
 	font-size: 18px;
-	color:#CC3636;
+	color:#035ffd;
 }
 .price-details{
 	border-top:1px solid #eee;
@@ -598,7 +598,7 @@ body {
 	font-size:18px;
 }
 .product-articles p a{
-	color:#e44f2b;
+	color:#035ffd;
 	font-size;14px;
 }
 .product-articles p a:hover{
@@ -615,7 +615,7 @@ body {
 }
 /*** Footer ***/
 .footer {
-	background:#e44f2b;
+	background:#035ffd;
 	padding:3% 0;
 }
 .footer-nav{
@@ -624,7 +624,7 @@ body {
 .footer-nav li{
   display:inline-block;
   color:#FFF;
-  font-size:14px; 
+  font-size:14px;
 }
 .footer-nav li a{
 	color:#FFF;
@@ -695,7 +695,7 @@ body {
 }
 .back-links  a:hover {
 	text-decoration:underline;
-	color:#e44f2b;
+	color:#035ffd;
 }
 .image {
 	clear: both;
@@ -755,7 +755,7 @@ body {
 }
 .span_3_of_2  h2 {
 	font-size: 1.2em;
-	color:#e44f2b;
+	color:#035ffd;
 	font-weight: normal;
 	margin-top: 0px;
 }
@@ -774,7 +774,7 @@ body {
 }
 .price p span {
 	font-size:2em;
-	color:#e44f2b;
+	color:#035ffd;
 	font-family:'Ubuntu Condensed', sans-serif;
 }
 .available {
@@ -829,7 +829,7 @@ body {
 	text-decoration: underline;
 }
 .wish-list li a:hover {
-	color:#e44f2b;
+	color:#035ffd;
 	text-decoration:none;
 }
 .wish-list li.wish{
@@ -876,7 +876,7 @@ body {
 	background:#000;
 }
 .checkbox-buttons label:hover{
-	border:2px solid #e44f2b;
+	border:2px solid #035ffd;
 }
 .checkbox-buttons input[type="checkbox"],
 .checkbox-buttons input[type="radio"] {
@@ -884,7 +884,7 @@ body {
 }
 .checkbox-buttons input[type="checkbox"]:checked + label,
 .checkbox-buttons input[type="radio"]:checked + label {
-	border:2px solid #e44f2b;
+	border:2px solid #035ffd;
 } 
 .colors-share{
 	margin-top:15px;
@@ -952,7 +952,7 @@ body {
 	font-size:0.85em;
 	display: block;
 	padding:8px 10px;
-	background:#e44f2b;
+	background:#035ffd;
 	color: #FFF;
 	text-decoration: none;
 	outline: 0;
@@ -975,7 +975,7 @@ body {
   margin-top:10px;
 }
 .popular-products li > h4 > a{
-	color: #e44f2b;
+	color: #035ffd;
 	font-size: 14px;
 	padding-bottom: 5px;
 }
@@ -984,7 +984,7 @@ body {
 }
 .popular-products li .price-number p span.line-through{
 	text-decoration:line-through;
-	color:#e44f2b;
+	color:#035ffd;
 }
 .preview-page{
 	padding:2% 0;
@@ -1045,7 +1045,7 @@ body {
 .product-tags .button a {
 	font-size:1em;
 	padding:10px 15px;
-	background:#E4292F;
+	background:#035ffd;
 	color: #FFF;
 	text-decoration: none;
 	outline: 0;
@@ -1076,7 +1076,7 @@ body {
 }
 .review h4 a:hover{
 	text-decoration:none;
-	color:#E4292F;
+	color:#035ffd;
 }
 .review ul{
 	margin-top:10px;
@@ -1112,7 +1112,7 @@ body {
 	font-family :verdana, arial, helvetica, helve, sans-serif;
 }
 .your-review label span.red{
-	color:#CD1F25;
+	color:#035ffd;
 	display:inline;
 }
 .your-review input[type="text"],.your-review textarea{
@@ -1135,7 +1135,7 @@ body {
     font-size:1em;
 	padding:10px 15px;
 	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
-	background:#E4292F;
+	background:#035ffd;
 	color: #FFF;
 	text-decoration: none;
 	border:none;
@@ -1184,7 +1184,7 @@ body {
 	margin-top:20px;
 }
 .community-poll p {
-	color: #CD1F25;
+	color: #035ffd;
 	font-size: 0.95em;
 	padding:5px  0;
 }
@@ -1255,7 +1255,7 @@ body {
 	font-size:16px;
 	padding:10px 25px;
 	font-family: 'Ubuntu Condensed', sans-serif;
-	background:#e44f2b;
+	background:#035ffd;
 	color: #FFF;
 	border:none;
 	text-decoration: none;
@@ -1526,4 +1526,71 @@ body {
    	width:100%;
    	text-align:center;
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	ul {
+		width: 180px; /* Ширина меню */
+		list-style: none; /* Для списка убираем маркеры */
+		margin: 0; /* Нет отступов вокруг */
+		padding: 0; /* Убираем поля вокруг текста */
+		font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+		font-size: 10pt; /* Размер названий в пункте меню */
+	}
+	li ul {
+		position: absolute; /* Подменю позиционируются абсолютно */
+		display: none; /* Скрываем подменю */
+		margin-left: 165px; /* Сдвигаем подменю вправо */
+		margin-top: -2em; /* Сдвигаем подменю вверх */
+	}
+	li a {
+		display: block; /* Ссылка как блочный элемент */
+		padding: 5px; /* Поля вокруг надписи */
+		text-decoration: none; /* Подчеркивание у ссылок убираем */
+		color: #666; /* Цвет текста */
+		border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+		background-color: #f0f0f0; /* Цвет фона */
+		border-bottom: none; /* Границу снизу не проводим */
+	}
+	li a:hover {
+		color: #ffe; /* Цвет текста активного пункта */
+		background-color: #5488af; /* Цвет фона активного пункта */
+	}
+	li:hover ul {
+		display: block; /* При выделении пункта курсором мыши отображается подменю */
+	}
+	.brd {
+		border-bottom: 1px solid #ccc; /* Линия снизу */
+	}
+
+
+
 }

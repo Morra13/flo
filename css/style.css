@@ -139,8 +139,8 @@ body {
 }
 .nav:before,
 .nav:after {
-    content: " "; 
-    display: table; 
+    content: " ";
+    display: table;
 }
 .nav:after {
     clear: both;
@@ -369,7 +369,7 @@ body {
   font-size:14px;
   color:#a5a5a5;
   float:none;
-  text-align:center;	
+  text-align:center;
 }
 .ocarousel_window_slides a:hover p{
  color: #035ffd;
@@ -385,13 +385,13 @@ body {
 	float:left;
 	width: 20%;
 	padding-right:2%;
-} 
+}
 .content-bottom-right{
 	float:left;
 	width:75.8%;
 	padding-left:2%;
 	border-left:1px solid #D7D7D7;
-} 
+}
 /** categories **/
 .categories h3,.buters-guide h3,.content-bottom-right h3,.preview-page h3{
 	font-size:1.1em;
@@ -438,7 +438,7 @@ body {
 }
 .categories li a:hover{
 	color:#035ffd;
-}	
+}
 .buters-guide{
 	margin-top:2em;
 }
@@ -513,7 +513,7 @@ body {
 }
 .images_1_of_4 {
 	width:20.72%;
-	padding:1.5%; 
+	padding:1.5%;
 	text-align: center;
 	position: relative;
 	background:#FFF;
@@ -851,7 +851,7 @@ body {
 	position: relative;
 	display:inline-block;
 	list-style-type:none;
-	margin-left:3px;	
+	margin-left:3px;
 }
 .checkbox-buttons label {
 	display: inline-block;
@@ -885,7 +885,7 @@ body {
 .checkbox-buttons input[type="checkbox"]:checked + label,
 .checkbox-buttons input[type="radio"]:checked + label {
 	border:2px solid #035ffd;
-} 
+}
 .colors-share{
 	margin-top:15px;
 }
@@ -913,7 +913,7 @@ body {
 	background:url("../images/social-share.png") no-repeat;
 }
 .social-share li a.share-face {
-	background-position: 0px 0px; 
+	background-position: 0px 0px;
 }
 .social-share li a.share-twitter {
 	background-position: -37px 0px;
@@ -1129,7 +1129,7 @@ body {
 }
 .your-review textarea{
 		resize:none;
-		height:120px;		
+		height:120px;
 }
 .your-review input[type="submit"]{
     font-size:1em;
@@ -1278,6 +1278,32 @@ body {
 .map iframe{
 	height:300px;
 }
+
+
+.categories li ul {
+	position: absolute; /* Подменю позиционируются абсолютно */
+	visibility: hidden; /* Скрываем подменю */
+	opacity: 0.5;
+	margin-left: 200px; /* Сдвигаем подменю вправо */
+	margin-top: -2em; /* Сдвигаем подменю вверх */
+	z-index: 2;
+	background: #EBEBEB;
+}
+.categories li a:hover {
+	color: #ffe; /* Цвет текста активного пункта */
+	background-color: #5488af; /* Цвет фона активного пункта */
+}
+.categories li:hover ul {
+	/*display: block; !* При выделении пункта курсором мыши отображается подменю *!*/
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.2s linear;
+}
+.categories .brd {
+	border-bottom: 1px solid #ccc; /* Линия снизу */
+}
+
+
 /**** Responsive Layout ****/
 @media only screen and (max-width: 1366px) {
 	.wrap{
@@ -1285,9 +1311,13 @@ body {
 	}
 }
 @media only screen and (max-width: 1280px) {
-   
+
 }
 @media only screen and (max-width: 1024px) {
+.categories li ul {
+		margin-left: 150px;
+}
+
 .wrap {
 		width: 95%;
 	}
@@ -1337,7 +1367,7 @@ body {
 		width:100%;
 	}
 	.header_bottom{
-		padding:6% 0 0% 0; 
+		padding:6% 0 0% 0;
 	}
 	.slider-text h2{
 		font-size:25px;
@@ -1493,7 +1523,7 @@ body {
 	.your-review input[type="text"], .your-review textarea{
 		width:93%;
 	}
-	
+
 }
 @media only screen and (max-width: 320px) {
 	.logo{
